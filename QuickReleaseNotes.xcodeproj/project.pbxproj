@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		892E65A2206BA58000F83A84 /* QuickReleaseNotes-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 892E65A3206BA58000F83A84 /* Build configuration list for PBXAggregateTarget "QuickReleaseNotes-Universal" */;
+			buildPhases = (
+				892E65A6206BA59700F83A84 /* ShellScript */,
+				892E65A7206BA5B000F83A84 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "QuickReleaseNotes-Universal";
+			productName = "QuickReleaseNotes-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		892E6567206B724500F83A84 /* QuickReleaseNotes.h in Headers */ = {isa = PBXBuildFile; fileRef = 892E6565206B724500F83A84 /* QuickReleaseNotes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892E6579206B7AC300F83A84 /* QuickReleaseCheckProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 892E6578206B7AA400F83A84 /* QuickReleaseCheckProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892E657D206B7FB500F83A84 /* QuickReleaseCheckAppStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 892E657B206B7FB500F83A84 /* QuickReleaseCheckAppStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892E657E206B7FB500F83A84 /* QuickReleaseCheckAppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 892E657C206B7FB500F83A84 /* QuickReleaseCheckAppStore.m */; };
+		892E6583206B8BBB00F83A84 /* QRNAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 892E6581206B8BBB00F83A84 /* QRNAlertViewController.h */; };
+		892E6584206B8BBB00F83A84 /* QRNAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 892E6582206B8BBB00F83A84 /* QRNAlertViewController.m */; };
+		892E6587206B8DF800F83A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892E6586206B8DF800F83A84 /* Foundation.framework */; };
+		892E6589206B8E0000F83A84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892E6588206B8E0000F83A84 /* UIKit.framework */; };
+		892E658B206B8E0600F83A84 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892E658A206B8E0600F83A84 /* SystemConfiguration.framework */; };
+		892E658F206B93BF00F83A84 /* QuickAppStoreReleaseNotesAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 892E658D206B93BF00F83A84 /* QuickAppStoreReleaseNotesAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892E6590206B93BF00F83A84 /* QuickAppStoreReleaseNotesAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 892E658E206B93BF00F83A84 /* QuickAppStoreReleaseNotesAlert.m */; };
+		892E659D206B98E700F83A84 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 892E659F206B98E700F83A84 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		892E6562206B724500F83A84 /* QuickReleaseNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickReleaseNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		892E6565206B724500F83A84 /* QuickReleaseNotes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickReleaseNotes.h; sourceTree = "<group>"; };
+		892E6566206B724500F83A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892E656E206B740200F83A84 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		892E656F206B740200F83A84 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		892E6572206B742600F83A84 /* QuickReleaseNotes.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QuickReleaseNotes.podspec; sourceTree = "<group>"; };
+		892E6578206B7AA400F83A84 /* QuickReleaseCheckProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickReleaseCheckProtocol.h; sourceTree = "<group>"; };
+		892E657B206B7FB500F83A84 /* QuickReleaseCheckAppStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickReleaseCheckAppStore.h; sourceTree = "<group>"; };
+		892E657C206B7FB500F83A84 /* QuickReleaseCheckAppStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickReleaseCheckAppStore.m; sourceTree = "<group>"; };
+		892E657F206B813600F83A84 /* QuickReleaseNotesDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickReleaseNotesDefine.h; sourceTree = "<group>"; };
+		892E6581206B8BBB00F83A84 /* QRNAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRNAlertViewController.h; sourceTree = "<group>"; };
+		892E6582206B8BBB00F83A84 /* QRNAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRNAlertViewController.m; sourceTree = "<group>"; };
+		892E6586206B8DF800F83A84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		892E6588206B8E0000F83A84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		892E658A206B8E0600F83A84 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		892E658D206B93BF00F83A84 /* QuickAppStoreReleaseNotesAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickAppStoreReleaseNotesAlert.h; sourceTree = "<group>"; };
+		892E658E206B93BF00F83A84 /* QuickAppStoreReleaseNotesAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickAppStoreReleaseNotesAlert.m; sourceTree = "<group>"; };
+		892E6595206B980800F83A84 /* QuickReleaseNotes.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickReleaseNotes.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		892E6597206B980800F83A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892E659E206B98E700F83A84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		892E65A0206B98F000F83A84 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		892E65A1206B98F400F83A84 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		892E655E206B724500F83A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892E658B206B8E0600F83A84 /* SystemConfiguration.framework in Frameworks */,
+				892E6589206B8E0000F83A84 /* UIKit.framework in Frameworks */,
+				892E6587206B8DF800F83A84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892E6592206B980800F83A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		892E6558206B724500F83A84 = {
+			isa = PBXGroup;
+			children = (
+				892E656D206B73F000F83A84 /* metadata */,
+				892E6564206B724500F83A84 /* QuickReleaseNotes */,
+				892E6596206B980800F83A84 /* QuickReleaseNotesBundle */,
+				892E6563206B724500F83A84 /* Products */,
+				892E6585206B8DF800F83A84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		892E6563206B724500F83A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				892E6562206B724500F83A84 /* QuickReleaseNotes.framework */,
+				892E6595206B980800F83A84 /* QuickReleaseNotes.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		892E6564206B724500F83A84 /* QuickReleaseNotes */ = {
+			isa = PBXGroup;
+			children = (
+				892E6565206B724500F83A84 /* QuickReleaseNotes.h */,
+				892E657F206B813600F83A84 /* QuickReleaseNotesDefine.h */,
+				892E6578206B7AA400F83A84 /* QuickReleaseCheckProtocol.h */,
+				892E657A206B7F7E00F83A84 /* QuickReleaseCheckAppStore */,
+				892E6580206B8AE300F83A84 /* QRNAlertViewController */,
+				892E658C206B938E00F83A84 /* QuickAppStoreReleaseNotesAlert */,
+				892E6566206B724500F83A84 /* Info.plist */,
+			);
+			path = QuickReleaseNotes;
+			sourceTree = "<group>";
+		};
+		892E656D206B73F000F83A84 /* metadata */ = {
+			isa = PBXGroup;
+			children = (
+				892E656E206B740200F83A84 /* LICENSE */,
+				892E656F206B740200F83A84 /* README.md */,
+				892E6572206B742600F83A84 /* QuickReleaseNotes.podspec */,
+			);
+			name = metadata;
+			sourceTree = "<group>";
+		};
+		892E657A206B7F7E00F83A84 /* QuickReleaseCheckAppStore */ = {
+			isa = PBXGroup;
+			children = (
+				892E657B206B7FB500F83A84 /* QuickReleaseCheckAppStore.h */,
+				892E657C206B7FB500F83A84 /* QuickReleaseCheckAppStore.m */,
+			);
+			path = QuickReleaseCheckAppStore;
+			sourceTree = "<group>";
+		};
+		892E6580206B8AE300F83A84 /* QRNAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				892E6581206B8BBB00F83A84 /* QRNAlertViewController.h */,
+				892E6582206B8BBB00F83A84 /* QRNAlertViewController.m */,
+			);
+			path = QRNAlertViewController;
+			sourceTree = "<group>";
+		};
+		892E6585206B8DF800F83A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				892E658A206B8E0600F83A84 /* SystemConfiguration.framework */,
+				892E6588206B8E0000F83A84 /* UIKit.framework */,
+				892E6586206B8DF800F83A84 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		892E658C206B938E00F83A84 /* QuickAppStoreReleaseNotesAlert */ = {
+			isa = PBXGroup;
+			children = (
+				892E658D206B93BF00F83A84 /* QuickAppStoreReleaseNotesAlert.h */,
+				892E658E206B93BF00F83A84 /* QuickAppStoreReleaseNotesAlert.m */,
+			);
+			path = QuickAppStoreReleaseNotesAlert;
+			sourceTree = "<group>";
+		};
+		892E6596206B980800F83A84 /* QuickReleaseNotesBundle */ = {
+			isa = PBXGroup;
+			children = (
+				892E6597206B980800F83A84 /* Info.plist */,
+				892E659F206B98E700F83A84 /* Localizable.strings */,
+			);
+			path = QuickReleaseNotesBundle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		892E655F206B724500F83A84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892E657D206B7FB500F83A84 /* QuickReleaseCheckAppStore.h in Headers */,
+				892E658F206B93BF00F83A84 /* QuickAppStoreReleaseNotesAlert.h in Headers */,
+				892E6567206B724500F83A84 /* QuickReleaseNotes.h in Headers */,
+				892E6579206B7AC300F83A84 /* QuickReleaseCheckProtocol.h in Headers */,
+				892E6583206B8BBB00F83A84 /* QRNAlertViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		892E6561206B724500F83A84 /* QuickReleaseNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892E656A206B724500F83A84 /* Build configuration list for PBXNativeTarget "QuickReleaseNotes" */;
+			buildPhases = (
+				892E655D206B724500F83A84 /* Sources */,
+				892E655E206B724500F83A84 /* Frameworks */,
+				892E655F206B724500F83A84 /* Headers */,
+				892E6560206B724500F83A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickReleaseNotes;
+			productName = QuickReleaseNotes;
+			productReference = 892E6562206B724500F83A84 /* QuickReleaseNotes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		892E6594206B980800F83A84 /* QuickReleaseNotesBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892E6598206B980800F83A84 /* Build configuration list for PBXNativeTarget "QuickReleaseNotesBundle" */;
+			buildPhases = (
+				892E6591206B980800F83A84 /* Sources */,
+				892E6592206B980800F83A84 /* Frameworks */,
+				892E6593206B980800F83A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickReleaseNotesBundle;
+			productName = QuickReleaseNotesBundle;
+			productReference = 892E6595206B980800F83A84 /* QuickReleaseNotes.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		892E6559206B724500F83A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Zero Status";
+				TargetAttributes = {
+					892E6561206B724500F83A84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					892E6594206B980800F83A84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					892E65A2206BA58000F83A84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 892E655C206B724500F83A84 /* Build configuration list for PBXProject "QuickReleaseNotes" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 892E6558206B724500F83A84;
+			productRefGroup = 892E6563206B724500F83A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				892E6561206B724500F83A84 /* QuickReleaseNotes */,
+				892E6594206B980800F83A84 /* QuickReleaseNotesBundle */,
+				892E65A2206BA58000F83A84 /* QuickReleaseNotes-Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		892E6560206B724500F83A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892E6593206B980800F83A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892E659D206B98E700F83A84 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		892E65A6206BA59700F83A84 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FMK_NAME=${PRODUCT_NAME}\n\n# Install dir will be the final output to the framework.\n\n# The following line create it in the root folder of the current project.\n\nINSTALL_DIR=${SRCROOT}/products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\n\nWRK_DIR=build\n\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\n\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n\n# Clean and Building both architectures.\n\nxcodebuild -project \"${FMK_NAME}\".xcodeproj -scheme \"${FMK_NAME}\" -configuration \"Release\" -sdk iphoneos clean build\n\nxcodebuild -project \"${FMK_NAME}\".xcodeproj -scheme \"${FMK_NAME}\" -configuration \"Release\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\n\nif [ -d \"${INSTALL_DIR}\" ]\n\nthen\n\nrm -rf \"${INSTALL_DIR}\"\n\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\n\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\n";
+		};
+		892E65A7206BA5B000F83A84 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FMK_NAME=${PRODUCT_NAME}\n\n# Working dir will be deleted after the framework creation.\n\nWRK_DIR=build\n\n#Resource bundle\nBUNDLE_TARGET_NAME=${FMK_NAME}Bundle\nBUNDLEDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.bundle\nINSTALL_BUNDLE_DIR=${SRCROOT}/products/${FMK_NAME}.bundle\n\n#build resource\nxcodebuild -configuration \"Release\" -target \"${BUNDLE_TARGET_NAME}\" -sdk iphoneos clean build\n\nditto \"${BUNDLEDEVICE_DIR}\" \"${INSTALL_BUNDLE_DIR}\"\n\n#rm -f \"${INSTALL_BUNDLE_DIR}\"/info.plist\nrm -f \"${INSTALL_BUNDLE_DIR}/${FMK_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		892E655D206B724500F83A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892E6590206B93BF00F83A84 /* QuickAppStoreReleaseNotesAlert.m in Sources */,
+				892E657E206B7FB500F83A84 /* QuickReleaseCheckAppStore.m in Sources */,
+				892E6584206B8BBB00F83A84 /* QRNAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892E6591206B980800F83A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		892E659F206B98E700F83A84 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892E659E206B98E700F83A84 /* en */,
+				892E65A0206B98F000F83A84 /* zh-Hans */,
+				892E65A1206B98F400F83A84 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		892E6568206B724500F83A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		892E6569206B724500F83A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		892E656B206B724500F83A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QuickReleaseNotes/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QuickReleaseNotes;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		892E656C206B724500F83A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QuickReleaseNotes/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QuickReleaseNotes;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		892E6599206B980800F83A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = QuickReleaseNotesBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QuickReleaseNotesBundle;
+				PRODUCT_NAME = QuickReleaseNotes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		892E659A206B980800F83A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = QuickReleaseNotesBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QuickReleaseNotesBundle;
+				PRODUCT_NAME = QuickReleaseNotes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		892E65A4206BA58000F83A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = QuickReleaseNotes;
+			};
+			name = Debug;
+		};
+		892E65A5206BA58000F83A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = QuickReleaseNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		892E655C206B724500F83A84 /* Build configuration list for PBXProject "QuickReleaseNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892E6568206B724500F83A84 /* Debug */,
+				892E6569206B724500F83A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892E656A206B724500F83A84 /* Build configuration list for PBXNativeTarget "QuickReleaseNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892E656B206B724500F83A84 /* Debug */,
+				892E656C206B724500F83A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892E6598206B980800F83A84 /* Build configuration list for PBXNativeTarget "QuickReleaseNotesBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892E6599206B980800F83A84 /* Debug */,
+				892E659A206B980800F83A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892E65A3206BA58000F83A84 /* Build configuration list for PBXAggregateTarget "QuickReleaseNotes-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892E65A4206BA58000F83A84 /* Debug */,
+				892E65A5206BA58000F83A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 892E6559206B724500F83A84 /* Project object */;
+}

@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  QuickReleaseNotes
+
+  Created by pcjbird on 2018/3/28.
+  Copyright © 2018年 Zero Status. All rights reserved.
+*/
+"NewReleaseFormat" = "發現新版本V%@";
+"Ignore" = "暫且忽略";
+"Update Now" = "立即更新";
+"Tips" = "提示";
+"I Know" = "我知道了";
+"Current is the latest version." = "當前已經是最新版本";
+"Current is the ignored version." = "當前版本已忽略";
