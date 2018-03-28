@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
 
     s.subspec 'QuickReleaseCheckAppStore' do |ss|
-        ss.source_files = 'QuickReleaseNotes/QuickReleaseCheckAppStore/*.{h,m}', 'QuickReleaseNotes/QuickReleaseNotesDefine.h'
+        ss.source_files = 'QuickReleaseNotes/QuickReleaseCheckAppStore/*.{h,m}', 'QuickReleaseNotes/QuickReleaseNotesDefine.h', 'QuickReleaseNotes/QuickReleaseCheckProtocol.h'
         ss.public_header_files = 'QuickReleaseNotes/QuickReleaseCheckAppStore/QuickReleaseCheckAppStore.h'
     end
 
