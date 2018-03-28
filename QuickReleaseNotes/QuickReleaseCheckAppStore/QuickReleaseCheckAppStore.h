@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <QuickReleaseNotes/QuickReleaseCheckProtocol.h>
+#import "QuickReleaseCheckProtocol.h"
 
 /**
  *@brief AppStore版本检测

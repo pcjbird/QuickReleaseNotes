@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
     end
 
     s.subspec 'QuickAppStoreReleaseNotesAlert' do |ss|
-        ss.source_files = 'QuickReleaseNotes/QuickAppStoreReleaseNotesAlert/*.{h,m}', 'QuickReleaseNotes/QRNAlertViewController/*.{h,m}', 'QuickReleaseNotes/QuickReleaseNotesDefine.h'
+        ss.source_files = 'QuickReleaseNotes/QuickAppStoreReleaseNotesAlert/*.{h,m}', 'QuickReleaseNotes/QRNAlertViewController/*.{h,m}', 'QuickReleaseNotes/QuickReleaseNotesDefine.h', 'QuickReleaseNotes/QuickReleaseCheckProtocol.h'
         ss.public_header_files = 'QuickReleaseNotes/QuickAppStoreReleaseNotesAlert/QuickAppStoreReleaseNotesAlert.h'
         ss.dependency 'QuickReleaseNotes/QuickReleaseCheckAppStore'
     end
