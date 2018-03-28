@@ -20,8 +20,6 @@ Pod::Spec.new do |s|
     s.source_files     = 'QuickReleaseNotes/*.{h,m}'
     s.public_header_files = 'QuickReleaseNotes/QuickReleaseNotes.h', 'QuickReleaseNotes/QuickReleaseCheckProtocol.h'
 
-    s.default_subspec = 'QuickAppStoreReleaseNotesAlert'
-
     s.resource_bundles = {
     'QuickReleaseNotes' => ['QuickReleaseNotesBundle/*.*'],
     }
