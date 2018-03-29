@@ -9,6 +9,11 @@
 # QuickReleaseNotes
 ### Quick integrate release note check with your App. 一行代码让你的App快速集成应用商店版本更新检测功能。
 
+## 演示 / Demo
+
+<p align="center"><img src="demo.jpg" title="demo"></p>
+
+
 ##  安装 / Installation
 
 方法一：`QuickReleaseNotes` is available through CocoaPods. To install it, simply add the following line to your Podfile:
@@ -16,6 +21,19 @@
 ```
 pod 'QuickReleaseNotes'
 ```
+
+## 使用 / Usage
+  
+  ```
+  #import <QuickReleaseNotes/QuickReleaseNotes.h>
+  
+  - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  // Override point for customization after application launch.
+  [QuickAppStoreReleaseNotesAlert checkWithFailureSilent:YES];
+  return YES;
+  }
+  ```
+
 
 ## 关注我们 / Follow us
   
