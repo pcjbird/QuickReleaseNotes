@@ -9,6 +9,7 @@
 # QuickReleaseNotes
 ### Quick integrate release note check with your App. 一行代码让你的App快速集成应用商店版本更新检测功能。
 
+
 ## 演示 / Demo
 
 <p align="center"><img src="demo.jpg" title="demo"></p>
@@ -24,15 +25,15 @@ pod 'QuickReleaseNotes'
 
 ## 使用 / Usage
   
-  ```
-  #import <QuickReleaseNotes/QuickReleaseNotes.h>
-  
-  - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
-  [QuickAppStoreReleaseNotesAlert checkWithFailureSilent:YES];
-  return YES;
-  }
-  ```
+```
+#import <QuickReleaseNotes/QuickReleaseNotes.h>
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  // Override point for customization after application launch.
+  [QuickAppStoreReleaseNotesAlert checkWithFailureSilent:YES];
+  return YES;
+}
+```
 
 
 ## 关注我们 / Follow us
