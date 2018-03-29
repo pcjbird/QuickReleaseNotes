@@ -80,7 +80,7 @@ static QuickAppStoreReleaseNotesAlert *_sharedInstance = nil;
 
 +(void) checkWithFailureSilent:(BOOL)bSilent
 {
-    [[QuickAppStoreReleaseNotesAlert sharedInstance] checkWithFailureSilent:bSilent];
+    [[[self class] sharedInstance] checkWithFailureSilent:bSilent];
 }
 
 -(NSString *)ignoredVersion

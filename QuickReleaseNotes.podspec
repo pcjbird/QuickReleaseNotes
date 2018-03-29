@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "QuickReleaseNotes"
-    s.version          = "1.0.0"
+    s.version          = "1.0.1"
     s.summary          = "Quick integrate release note check with your App. 一行代码让你的App快速集成应用商店版本更新检测功能。"
     s.description      = <<-DESC
     Quick integrate release note check with your App. 一行代码让你的App快速集成应用商店版本更新检测功能, 支持扩展。
