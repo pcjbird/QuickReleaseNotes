@@ -4,7 +4,10 @@
 [![Pod Platform](http://img.shields.io/cocoapods/p/QuickReleaseNotes.svg?style=flat)](http://cocoadocs.org/docsets/QuickReleaseNotes/)
 [![Pod License](http://img.shields.io/cocoapods/l/QuickReleaseNotes.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![CocoaPods](https://img.shields.io/cocoapods/at/QuickReleaseNotes.svg)](https://github.com/pcjbird/QuickReleaseNotes)
+[![CocoaPods](https://img.shields.io/cocoapods/dt/QuickReleaseNotes.svg)](https://github.com/pcjbird/QuickReleaseNotes)
 [![GitHub release](https://img.shields.io/github/release/pcjbird/QuickReleaseNotes.svg)](https://github.com/pcjbird/QuickReleaseNotes/releases)
+[![GitHub release](https://img.shields.io/github/release-date/pcjbird/QuickReleaseNotes.svg)](https://github.com/pcjbird/QuickReleaseNotes/releases)
+[![Website](https://img.shields.io/website-pcjbird-down-green-red/https/shields.io.svg?label=author)](https://pcjbird.github.io)
 
 # QuickReleaseNotes
 ### Quick integrate release note check with your App. 一行代码让你的App快速集成应用商店版本更新检测功能。
