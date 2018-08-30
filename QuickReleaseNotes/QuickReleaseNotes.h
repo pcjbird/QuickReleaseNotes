@@ -8,6 +8,9 @@
 //  框架名称:QuickReleaseNotes
 //  框架功能:Quick integrate release note check with your App. 一行代码让你的App快速集成应用商店版本更新检测功能。
 //  修改记录:
+//     pcjbird    2018-08-30  Version:1.0.2 Build:201808300001
+//                            1.remove build warnings
+//
 //     pcjbird    2018-03-29  Version:1.0.1 Build:201803290001
 //                            1.修复继承QuickAppStoreReleaseNotesAlert无法指定的版本标记为强制更新版本的问题
 //

@@ -53,16 +53,14 @@
 
 @interface QRNAlertViewController ()
 {
-    UIView *_shadowView;
-    UIView *_contentView;
-    
     UIEdgeInsets _contentMargin;
     CGFloat _contentViewWidth;
     CGFloat _buttonHeight;
     
     BOOL _firstDisplay;
 }
-
+@property(nonatomic, strong) UIView *shadowView;
+@property(nonatomic, strong) UIView *contentView;
 @property (strong, nonatomic) UILabel *titleLabel;
 @property (strong, nonatomic) UILabel *messageLabel;
 @property (strong, nonatomic) NSMutableArray *mutableActions;
@@ -321,17 +319,18 @@
         _firstDisplay = NO;
         _shadowView.alpha = 0;
         _shadowView.transform = CGAffineTransformMakeScale(1.1, 1.1);
+        __weak typeof(self) weakSelf = self;
         [UIView animateWithDuration:0.5 delay:0 usingSpringWithDamping:0.55 initialSpringVelocity:10 options:UIViewAnimationOptionCurveEaseIn animations:^{
-            _shadowView.transform = CGAffineTransformIdentity;
-            _shadowView.alpha = 1;
+            weakSelf.shadowView.transform = CGAffineTransformIdentity;
+            weakSelf.shadowView.alpha = 1;
         } completion:nil];
     }
 }
 
 - (void)showDisappearAnimation {
-    
+    __weak typeof(self) weakSelf = self;
     [UIView animateWithDuration:0.1 animations:^{
-        _contentView.alpha = 0;
+        weakSelf.contentView.alpha = 0;
     } completion:^(BOOL finished) {
         [self dismissViewControllerAnimated:NO completion:nil];
     }];
