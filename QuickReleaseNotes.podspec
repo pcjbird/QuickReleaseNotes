@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "QuickReleaseNotes"
-    s.version          = "1.0.2"
+    s.version          = "1.0.3"
     s.summary          = "Quick integrate release note check with your App. 一行代码让你的App快速集成应用商店版本更新检测功能。"
     s.description      = <<-DESC
     Quick integrate release note check with your App. 一行代码让你的App快速集成应用商店版本更新检测功能, 支持扩展。
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     s.public_header_files = 'QuickReleaseNotes/QuickReleaseNotes.h', 'QuickReleaseNotes/QuickReleaseCheckProtocol.h'
 
     s.resource_bundles = {
-    'QuickReleaseNotes' => ['QuickReleaseNotesBundle/*.*'],
+    'QuickReleaseNotes' => ['QuickReleaseNotesBundle/*.lproj'],
     }
 
     s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
